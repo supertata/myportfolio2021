@@ -133,12 +133,16 @@
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+	
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 		}
+
+	#emailaddress {
+		color: blue;
+	}
 
 	strong, b {
 		font-weight: 400;
@@ -1466,7 +1470,7 @@
 
 /* Intro */
 
-	#intro {
+	#skills {
 		padding: 4em 4em 2em 4em;
 		background-color: #ffffff;
 		border-radius: 4px;
@@ -1475,7 +1479,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			#intro {
+			#skills {
 				padding: 2em 2em 0.1em 2em;
 			}
 
@@ -1483,11 +1487,11 @@
 
 		@media screen and (max-width: 480px) {
 
-			#intro {
+			#skills {
 				padding: 2em 1em 0.1em 1em;
 			}
 
-				#intro p br {
+				#skills p br {
 					display: none;
 				}
 
